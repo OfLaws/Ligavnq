@@ -16,6 +16,7 @@ button {
     padding: 12px;
     cursor: pointer;
     font-size: 16px;
+    color: black;
 }
 
 #noButton {
@@ -23,4 +24,5 @@ button {
     margin: 6px;
     padding: 6px;
     font-size: 6px;
+    color: black;
 }
