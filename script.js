@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const noButton = document.getElementById('noButton');
 
-    const makeItFloat = function() {
-        // Calculate new positions within the viewport
+    const makeItFloat = function() 
+{
         const maxX = document.body.clientWidth - this.offsetWidth;
         const maxY = document.body.clientHeight - this.offsetHeight;
         const newX = Math.random() * maxX;
