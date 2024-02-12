@@ -8,13 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const newX = Math.random() * maxX;
         const newY = Math.random() * maxY;
 
-        // Apply the new positions
-        this.style.position = 'absolute'; // Use 'absolute' for positioning within the viewport
+        this.style.position = 'absolute'; 
         this.style.left = newX + 'px';
         this.style.top = newY + 'px';
     };
 
-    // Attach events for both mouse and touch devices
     noButton.addEventListener('mouseover', makeItFloat);
     noButton.addEventListener('touchstart', makeItFloat, {passive: true});
 
